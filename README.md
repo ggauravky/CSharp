@@ -1,114 +1,146 @@
-```
-   ____ _                  _                          _          _
-  / ___| |__   _ __ ___  __| |  _ __ ___   __ _  _ __ | |__   ___ | |_
- | |   | '_ \ | '__/ _ \/ _` | | '_ ` _ \ / _` || '__|| '_ \ / _ \| __|
- | |___| | | || | |  __/ (_| | | | | | | | (_| || |   | | | |  __/| |_
-  \____|_| |_||_|  \___|\__,_| |_| |_| |_|\__,_||_|   |_| |_|\___| \__|
-```
-Place your logo or banner above the title for the best visual impact.
+<div align="center">
+  <img src="https://cdn.simpleicons.org/csharp/512BD4" height="56" alt="C# logo" />
+  <img src="https://cdn.simpleicons.org/dotnet/512BD4" height="56" alt=".NET logo" />
 
-# C# Learning Lab 📘
-Hands-on .NET Framework console projects for mastering C# fundamentals and core .NET topics.
+  <h1>C# Learning Repository</h1>
 
-[![Build](https://img.shields.io/badge/build-not%20configured-lightgrey)](https://github.com/ggauravky/CSharp/actions)
-[![License](https://img.shields.io/badge/license-Unspecified-lightgrey)](#license)
-[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4?logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472)
-[![NuGet](https://img.shields.io/badge/NuGet-n%2Fa-004880?logo=nuget)](https://www.nuget.org/)
+  <p>A structured, example-driven C# learning path with notes, exercises, and clean practice code.</p>
+
+  <p>
+    <a href="https://github.com/ggauravky/CSharp/stargazers"><img src="https://img.shields.io/github/stars/ggauravky/CSharp?style=for-the-badge" alt="GitHub stars" /></a>
+    <a href="https://github.com/ggauravky/CSharp/forks"><img src="https://img.shields.io/github/forks/ggauravky/CSharp?style=for-the-badge" alt="GitHub forks" /></a>
+    <a href="https://github.com/ggauravky/CSharp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ggauravky/CSharp?style=for-the-badge" alt="License" /></a>
+    <a href="https://github.com/ggauravky/CSharp/commits/main"><img src="https://img.shields.io/github/last-commit/ggauravky/CSharp?style=for-the-badge" alt="Last commit" /></a>
+    <a href="https://github.com/ggauravky/CSharp"><img src="https://img.shields.io/github/repo-size/ggauravky/CSharp?style=for-the-badge" alt="Repo size" /></a>
+  </p>
+</div>
+
+---
 
 ## Table of Contents
-- [About the Project](#about-the-project)
+- [About Repository](#about-repository)
+- [Learning Topics](#learning-topics)
+- [Folder Structure](#folder-structure)
+- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Future Improvements](#future-improvements)
+- [Footer](#footer)
 
-## About the Project
-This repository is a curated collection of standalone console apps organized by topic. It is designed for learning, revising, and demonstrating core C# and .NET Framework concepts through concise, runnable examples.
+---
 
-**Key features**
-- Topic-by-topic progression from basics to advanced concepts
-- Self-contained projects you can run independently
-- Coverage across fundamentals, OOP, collections, IO, threading, and networking
-- Friendly for quick experimentation and study
+## About Repository
+This repository contains structured C# learning materials built from real study notes and hands-on practice. It spans beginner to advanced concepts with clear examples, exercises, and topic-wise organization to help learners progress step-by-step.
+
+**What you will find**
+- Topic-wise folders with clean, focused C# examples
+- Practice code for core concepts and common interview patterns
+- Notes and explanations that reinforce fundamentals
+- A beginner-friendly layout that scales to advanced topics
+
+---
+
+<div align="center">
+  <h2>Learning Topics</h2>
+</div>
+
+| Track | Topics Covered | Outcome |
+| --- | --- | --- |
+| Foundations | Basics, Variables & Data Types, Operators, Conditionals, Loops, Methods | Solid command over syntax, control flow, and core language rules |
+| Intermediate | OOP, Collections, Exception Handling, LINQ, File Handling, Delegates & Events, Generics | Build real-world code with robust structure and reusable patterns |
+| Advanced | Async/Await, Multithreading, Advanced C# | Write performant, scalable, and modern C# applications |
+
+---
+
+## Folder Structure
+```bash
+📦 CSharp-Learning
+ ┣ 📂 Basics
+ ┣ 📂 OOP
+ ┣ 📂 LINQ
+ ┣ 📂 Collections
+ ┣ 📂 FileHandling
+ ┣ 📂 AsyncProgramming
+ ┗ 📂 AdvancedTopics
+```
+
+<details>
+  <summary>Full topic index (current layout)</summary>
+
+```text
+001 Introduction & Basics of C#
+002 dotNET Architecture (CLR + FCL)
+003 Managed Code, CTS, CLS, MSIL, Boxing
+004 JIT Compiler & Garbage Collection
+005 FCL & Namespaces
+006 OOP in C#
+007 Introduction to C#
+008 Basics of C#
+009 Type Conversion & Operators
+010 Data Structures in C#
+011 Control Statements & Looping
+012 Input-Output & Streams
+013 Libraries & Assemblies
+014 dotNET Assemblies (Advanced)
+015 Multithreading
+016 Networking & Sockets
+Array
+MoreAboutVariable
+Searching
+```
+</details>
+
+---
+
+<div align="center">
+  <h2>Features</h2>
+</div>
+
+| Feature | Details |
+| --- | --- |
+| Structured Learning | Progressive, topic-by-topic flow from fundamentals to advanced |
+| Beginner Friendly | Clear examples with readable code and organization |
+| Clean Code Examples | Small, focused programs for faster understanding |
+| Interview Preparation | Covers core concepts commonly asked in interviews |
+| Notes Included | Study notes and reminders alongside examples |
+| Regular Updates | Continuously improved as learning evolves |
+
+---
 
 ## Tech Stack
-| Layer | Details |
-| --- | --- |
-| Language | C# |
-| Runtime | .NET Framework 4.7.2 |
-| Project Type | Console applications (classic .csproj) |
-| Tooling | Visual Studio / MSBuild |
-| Dependencies | No external NuGet packages detected |
+<p>
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
+
+---
 
 ## Getting Started
-### Prerequisites
-- Windows 10 or later
-- Visual Studio 2019 or 2022 (or Build Tools with MSBuild)
-- .NET Framework 4.7.2 Developer Pack
-
-### Installation
-1. Clone the repository.
-2. Choose a topic folder (for example, 001 to 016, Array, Searching, MoreAboutVariable).
-3. Open the solution or project in Visual Studio and build.
-
-### Run
-- Visual Studio: Press F5 or Ctrl+F5.
-- CLI (PowerShell example):
-
-```powershell
-msbuild "Array\ArrayList\ArrayList\ArrayList.csproj" /p:Configuration=Debug
-.\Array\ArrayList\ArrayList\bin\Debug\ArrayList.exe
+```bash
+git clone <repo-url>
+cd <repo-name>
 ```
 
-## Usage
-### Example snippet
-```csharp
-Console.WriteLine("Hello, .NET!");
-int number = 10;
-double price = 99.99;
-char grade = 'A';
-string name = "Gaurav";
-bool isActive = true;
-
-Console.WriteLine("Number: " + number);
-Console.WriteLine("Price: " + price);
-Console.WriteLine("Grade: " + grade);
-Console.WriteLine("Name: " + name);
-Console.WriteLine("Active: " + isActive);
-```
-
-## Project Structure
-- Numbered folders (001 to 016) contain topic-based lessons and practice apps.
-- Additional practice areas include Array, Searching, and MoreAboutVariable.
-- Each topic includes a runnable entry point and configuration file, such as
-  [Array/ArrayList/ArrayList/Program.cs](Array/ArrayList/ArrayList/Program.cs) and
-  [Array/ArrayList/ArrayList/App.config](Array/ArrayList/ArrayList/App.config).
-
-## Configuration
-Project settings and runtime configuration live in each app configuration file, for example
-[Array/ArrayList/ArrayList/App.config](Array/ArrayList/ArrayList/App.config). Update the supported runtime there if you target a different .NET Framework version.
+---
 
 ## Contributing
-1. Fork the repository.
-2. Create a feature branch.
-3. Add or improve examples with clear, runnable code.
-4. Run the project to validate behavior.
-5. Open a pull request with a concise description and screenshots or output where helpful.
+Contributions are welcome. If you have better examples, new topics, or improvements to the learning flow, feel free to open a pull request.
 
-## Roadmap
-- Add per-topic mini guides and exercises
-- Add CI builds to validate compilation
-- Migrate projects to SDK-style formats where appropriate
-- Introduce unit tests for selected topics
+---
 
-## License
-No license file is currently present. Add a license to clarify usage and contributions.
+## Future Improvements
+- More advanced projects and real-world mini apps
+- ASP.NET examples and web fundamentals
+- Design patterns with C# implementations
+- Unit testing and test-driven development
+- API development and integration samples
 
-## Acknowledgements
-- Microsoft C# documentation and .NET Framework docs
-- The broader C# and .NET community
+---
+
+## Footer
+> “First, solve the problem. Then, write the code.” — John Johnson
+
+Made with ❤️ using C#
